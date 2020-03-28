@@ -165,12 +165,14 @@ export const ProjectsLast = () => (
                 <p className="text">
                   {" "}
                   <span>HTML + CSS + JavaScript</span>
+                  <br />
+                  <span>React + Node</span>
                 </p>
                 <div className="mid">
                   <Button
                     className="btn"
                     variant="primary"
-                    href="https://github.com/vinicvaz/myPortfolio"
+                    href="https://github.com/vinicvaz/portfolio-public"
                     target="_blank"
                   >
                     View Code
@@ -221,7 +223,7 @@ export const ProjectsLast = () => (
                   search and find youtube videos for DS study.
                 </p>
                 <p className="text">
-                  <span>Spark + HTML + Flask</span>
+                  <span>Python + HTML + Flask</span>
                 </p>
                 <div className="mid">
                   <Button
@@ -236,6 +238,37 @@ export const ProjectsLast = () => (
               </div>
             </div>
           </Col>
+          <Col className="col1" md={4} xs={6}>
+            <div className="inner">
+              <Image
+                className="img"
+                src="https://i.imgur.com/qw7WsO4.png"
+                fluid
+              ></Image>
+              <div className="overlay">
+                <h1 className="header">BE THE HERO</h1>
+                <p className="text">
+                  The Be The Hero App will connect NGOs that need help with people who want to help.
+                </p>
+                <p className="text">
+                  <span>JavaScript + HTML + CSS</span>
+                  <br />
+                  <span>React + Node</span>
+                </p>
+                <div className="mid">
+                  <Button
+                    className="btn"
+                    variant="primary"
+                    href="https://github.com/vinicvaz/omnistack-app"
+                    target="_blank"
+                  >
+                    View Code
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </Col>
+
         </Row>
       </Container>
     </div>

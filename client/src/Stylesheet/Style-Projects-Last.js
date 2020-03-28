@@ -93,13 +93,12 @@ export const Styles = styled.div`
         margin-top: 10%
         
         @media only screen and (max-width: 767px){
-            font-size: 2vw
-            margin-top: 3%
+            font-size: 1.5vw
             
         }
 
         @media only screen and (min-width: 1000px){
-            margin-top: 10%   
+            margin-top: 8%   
         }
 
 
